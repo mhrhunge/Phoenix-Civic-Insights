@@ -1,0 +1,16 @@
+{
+  "name": "Phoenix Civic Theme",
+  "dataColors": [
+    "#2F4B7C",
+    "#F95D6A",
+    "#FFA600",
+    "#665191",
+    "#003f5c",
+    "#a05195",
+    "#d45087",
+    "#ff7c43"
+  ],
+  "background": "#ffffff",
+  "foreground": "#111111",
+  "tableAccent": "#2F4B7C"
+}

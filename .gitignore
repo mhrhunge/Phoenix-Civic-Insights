@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Outputs (generated)
+outputs/*
+!outputs/.gitkeep
+
+# Data (downloaded)
+data/*
+!data/.gitkeep
