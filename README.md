@@ -7,7 +7,7 @@ Focus areas: **water production** and **calls for service** (police dispatch).
 
 ---
 
-## 🎯 Project Overview
+##  Project Overview
 - Automates download of **official Phoenix Open Data** (water production & calls for service).
 - Ingests CSVs → **SQLite** via Python ETL.
 - Runs **analytical SQL** + Python aggregations.
@@ -16,7 +16,7 @@ Focus areas: **water production** and **calls for service** (police dispatch).
 
 ---
 
-## 🧠 Skills Demonstrated
+##  Skills Demonstrated
 - **SQL (SQLite):** schema design, indexing, window functions, aggregation, ranking.
 - **Python (pandas, matplotlib, requests):** ETL, cleaning, joins, KPIs, charting, automation.
 - **Data Engineering:** reproducible pipeline (download → build DB → analyze).
@@ -25,7 +25,7 @@ Focus areas: **water production** and **calls for service** (police dispatch).
 
 ---
 
-## ⚙️ Tools Used
+##  Tools Used
 - **Python**: pandas, numpy, matplotlib, requests
 - **SQL**: SQLite (via `sqlite3`), SQL window functions
 - **Jupyter Notebook** for exploration
@@ -34,7 +34,7 @@ Focus areas: **water production** and **calls for service** (police dispatch).
 
 ---
 
-## 🗂 Repository Layout
+##  Repository Layout
 ```
 data/        # downloaded CSVs (after running download_data.py)
 sql/         # schema + queries
@@ -46,7 +46,7 @@ powerbi/     # theme + Power Query scripts to build a PBIX
 
 ---
 
-## 🚀 Quickstart
+##  Quickstart
 ```bash
 python -m venv .venv && source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -67,7 +67,7 @@ Outputs are saved to `outputs/`:
 
 ---
 
-## 🧩 Power BI (Starter)
+##  Power BI (Starter)
 - Import `outputs/water_production_trend.csv` and `outputs/calls_top_types.csv` into Power BI.
 - Optional: Use theme `powerbi/phoenix_theme.json`.
 - Optional: Use Power Query scripts in `powerbi/queries/` to connect directly to the CSV folder.
@@ -76,11 +76,11 @@ Outputs are saved to `outputs/`:
 
 ---
 
-## 🔗 Data Sources (Official)
+##  Data Sources (Official)
 - City of Phoenix Open Data — Water: Total Produced (million gallons)
 - City of Phoenix Open Data — Calls for Service
 
 ---
 
-## 📄 License
+##  License
 MIT
