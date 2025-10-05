@@ -1,6 +1,6 @@
 # Phoenix Civic Insights & Sustainability Analytics
 
-Real-data analytics for the City of Phoenix using **Python (pandas, matplotlib)** and **SQL (SQLite)**.  
+Real data analytics for the City of Phoenix using **Python (pandas, matplotlib)** and **SQL (SQLite)**.  
 Focus areas: **water production** and **calls for service** (police dispatch).
 
 **Developed by [Mihir Dinanath Hunge](https://github.com/mhrhunge)**
